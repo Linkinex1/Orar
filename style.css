@@ -75,11 +75,11 @@ body{
 }
 .layer {
     background-color: #fff;
-    overflow: auto; /* Добавляем полосы прокрутки */
-    height: 100px; /* Высота блока */
+    overflow: auto; 
+    height: 100px; 
     line-height: .5;
     font-size: 12px;
-    margin-top: 40px;
+    margin-top: 20px;
    } 
 
    .layer p:{
@@ -95,10 +95,32 @@ body{
    #w{
     width: 410px;
     height: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
    }
 
    .w option{
+    height: 40px;
+    width: 410px;
+   }
+
+   #s{
+    width: 410px;
+    height: 40px;
+    margin-top: 20px;
+   }
+
+   #d{
+    width: 410px;
+    height: 40px;
+    margin-top: 20px;
+   }
+
+   .s option{
+    height: 40px;
+    width: 410px;
+   }
+
+   .d option{
     height: 40px;
     width: 410px;
    }
