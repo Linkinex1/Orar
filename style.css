@@ -82,11 +82,12 @@ body{
     margin-top: 20px;
    } 
 
-   .layer p:{
-    margin: 1px;
+   .layer p{
+    margin: 10px;
+   }
     
 
-   }
+   
 
    .layer  :hover{
     color: #25975A;
@@ -124,3 +125,16 @@ body{
     height: 40px;
     width: 410px;
    }
+
+   #grid { 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    }
+  #grid > div {
+    font-size: 5vw;
+    padding: .5em;
+    background: gold;
+    text-align: center;
+  }
