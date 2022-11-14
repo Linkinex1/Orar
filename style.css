@@ -80,10 +80,12 @@ body{
     line-height: .5;
     font-size: 12px;
     margin-top: 20px;
+    
    } 
 
    .layer p{
     margin: 10px;
+    
    }
     
 
@@ -126,15 +128,16 @@ body{
     width: 410px;
    }
 
-   #grid { 
+   
+  #grid { 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(15px, 1fr));
     grid-gap: 2vw;
     }
   #grid > div {
     font-size: 5vw;
-    padding: .5em;
+    padding: 20px;
     background: gold;
     text-align: center;
   }
