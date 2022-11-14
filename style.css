@@ -127,17 +127,19 @@ body{
     height: 40px;
     width: 410px;
    }
-
-   
-  #grid { 
+   #grid { 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: repeat(auto-fill, minmax(15px, 1fr));
-    grid-gap: 2vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: .1vw;
+    
     }
   #grid > div {
-    font-size: 5vw;
-    padding: 20px;
-    background: gold;
+    font-size: 10px;
+    padding: .5em;
+    background: #fff;
     text-align: center;
+   
   }
+   
+  
