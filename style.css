@@ -73,4 +73,32 @@ body{
   font-size: 16px;
   color: #F9F0DA;
 }
+.layer {
+    background-color: #fff;
+    overflow: auto; /* Добавляем полосы прокрутки */
+    height: 100px; /* Высота блока */
+    line-height: .5;
+    font-size: 12px;
+    margin-top: 40px;
+   } 
 
+   .layer p:{
+    margin: 1px;
+    
+
+   }
+
+   .layer  :hover{
+    color: #25975A;
+   }
+
+   #w{
+    width: 410px;
+    height: 40px;
+    margin-top: 40px;
+   }
+
+   .w option{
+    height: 40px;
+    width: 410px;
+   }
